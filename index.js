@@ -25,7 +25,7 @@ cron.schedule('0 */2 * * *', fetchCryptoData);
 
 
 // Use routes
-app.use('/api', cryptoRoutes);
+app.use('/api/v1', cryptoRoutes);
 
 
 // Start server
